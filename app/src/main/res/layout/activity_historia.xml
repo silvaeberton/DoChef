@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityHistoria"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    >
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vermelhoOitenta"
+   >
+
+    <Button
+        android:id="@+id/botaohistoria"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/historia"
+        android:transitionName="historia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="10dp"
+        android:text="Gostaria de enfatizar que o surgimento do comércio virtual talvez venha a ressaltar a relatividade dos métodos utilizados na avaliação de resultados. Ainda assim, existem dúvidas a respeito de como a hegemonia do ambiente político estende o alcance e a importância das direções preferenciais no sentido do progresso. Acima de tudo, é fundamental ressaltar que o novo modelo estrutural aqui preconizado causa impacto indireto na reavaliação dos níveis de motivação departamental. O empenho em analisar a expansão dos mercados mundiais cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaohistoria" />
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
